@@ -1,0 +1,18 @@
+.image{
+
+}
+
+.title{
+
+}
+
+.text{
+
+}
+
+.gradient{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(at left top, var(--teal-300), var(--b));
+    background-size: 100% 100%;
+}

@@ -1,0 +1,28 @@
+.image {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  z-index: 1;
+  width: 95%;
+  height: 100vh;
+  object-fit: cover;
+  margin: 2rem;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.gradient {
+  position: absolute;
+  top: 9rem;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(var(--transp) 30%, var(--gray-200) 100%);
+  z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .video {
+    width: 100%;
+    margin: unset;
+  }
+}

@@ -1,0 +1,17 @@
+.image{
+
+}
+
+.title{
+
+}
+
+.text{
+
+}
+
+.gradient{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, var(--violet-300), var(--teal-300));
+}

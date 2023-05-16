@@ -1,0 +1,13 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--violet-200);
+    border: 2px solid red;
+    z-index: 3;
+}
+
+.card{
+    height: 70vh;
+    width: 25vw;
+    background-color: var(--light);
+}

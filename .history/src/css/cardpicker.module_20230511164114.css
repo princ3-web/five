@@ -1,0 +1,19 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--violet-200);
+}
+
+.cards{
+    width: 90%;
+    margin: auto
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    height: 70vh;
+    width: 25%;
+    background-color: var(--light);
+}

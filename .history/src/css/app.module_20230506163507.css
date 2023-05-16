@@ -1,0 +1,61 @@
+:root {
+    --thin: 200;
+    --regular: 400;
+    --bold: 600;
+    --font-12: 12px;
+    --font-14: 14px;
+    --font-16: 16px;
+    --font-20: 20px;
+    --font-24: 24px;
+    --font-30: 30px;
+    --font-36: 36px;
+    --font-48: 48px;
+    --dark: rgb(10, 10, 10);
+    --dark-transp-100: rgb(0, 0, 0, 0.5);
+    --gray-transp-200: rgba(100, 100, 100, 0.5);
+    --gray-transp-300: rgba(100, 100, 100, 0.25);
+    --gray-100: rgb(60, 60, 60);
+    --gray-150: rgb(100, 100, 100);
+    --gray-200: rgb(170, 170, 170);
+    --gray-300: rgb(220, 220, 220);
+    --gray-400: rgb(240, 240, 240);
+    --light: rgb(245, 245, 245);
+    --light-transp: rgb(255, 255, 255, 0.2);
+    --green-200: rgb(2, 27, 32);
+    --green-300: rgb(3, 57, 47);
+    --green-400: rgb(7, 93, 77);
+    --green-500: rgb(11, 135, 112);
+    --green-600: rgb(68, 163, 128);
+    --green-650: rgb(76, 180, 142);
+    --green-700: rgb(120, 231, 177);
+    --blue-200: rgb(0, 78, 162);
+    --violet-200: rgb(81, 0, 162);
+    --transp: rgba(0, 0, 0, 0);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+html > div {
+    display: none;
+  }
+  
+  * {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    user-select: none;
+  }
+
+  .app{
+    background-color: var(--gray-300);
+    height: fit-content;
+  }
+
+  .section{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }

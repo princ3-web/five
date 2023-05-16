@@ -1,0 +1,41 @@
+.objectscroller{
+  display: block;
+  pos
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10rem;
+  width: 25rem;
+  filter: drop-shadow(10px 10px 10px var(--dark));
+  z-index: 3;
+}
+
+.textContainer {
+  color: var(--light);
+  position: absolute;
+  left: 10rem;
+  top: 15rem;
+  margin: auto;
+}
+
+.title {
+  font-size: var(--font-36);
+}
+
+.text {
+  font-size: var(--font-20);
+}
+
+.gradient {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(at left top, var(--teal-300) 0%, var(--violet-300) 70%);
+  background-size: 100% 150%;
+  filter: brightness(0.9);
+  background: url("../assets/images/background4.jpg");
+  background-size: cover;
+}

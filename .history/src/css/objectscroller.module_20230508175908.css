@@ -1,0 +1,21 @@
+.image {
+}
+
+.textContainer {
+    position: absolute;
+    left: 1
+}
+
+.title {
+}
+
+.text {
+}
+
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(at left top, var(--teal-300) 0%, var(--violet-300) 70%);
+  background-size: 100% 150%;
+  filter: brightness(0.9);
+}

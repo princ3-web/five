@@ -1,0 +1,121 @@
+.imageScroller {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+  background-color: var(--dark);
+}
+
+.image {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  padding: 0;
+  transition: 1s;
+  filter: opacity(1);
+}
+
+.imageFade {
+  filter: opacity(0);
+}
+
+.arrow {
+  position: absolute;
+  width: 1.5rem;
+  z-index: 2;
+  top: 50%;
+  padding: 1rem;
+  border: 1px solid var(--gray-200);
+  cursor: pointer;
+  background-size: 0% 0%;
+  background-color: var(--gray-200);
+  background: linear-gradient(90deg, var(--dark) 0%, var(--violet-300));
+  background-size: 200% 100%;
+  background-position: 25% 100%;
+  transition: 0.5s;
+}
+
+.arrow:hover {
+  background-position: 100% 100%;
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(var(--transp) 30%, var(--dark) 100%);
+  z-index: 1;
+}
+
+.explore {
+  position: absolute;
+  z-index: 3;
+  left: 7rem;
+  top: 55%;
+  width: 25rem;
+  filter: drop-shadow(0px 0px 10px var(--dark));
+
+}
+
+.exploreTitle {
+  position: relative;
+  color: var(--gray-300);
+  font-size: var(--font-30);
+  margin-bottom: 0.5rem;
+
+}
+
+.exploreText {
+  position: relative;
+  color: var(--gray-300);
+  font-size: var(--font-16);
+  line-height: 1.8rem;
+  margin-bottom: 0.5rem;
+  height: 9rem;
+
+}
+
+.exploreButton {
+  position: absolute;
+  bottom: 0rem;
+  width: fit-content;
+  color: var(--gray-300);
+  font-size: var(--font-20);
+  padding: 1rem;
+  padding-inline: 4rem;
+  border: 1px solid var(--gray-200);
+  background: linear-gradient(180deg, var(--transp) 0%, var(--violet-300) 100%);
+  background-size: 100% 200%;
+  background-position: 100% 0%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.exploreButton:hover {
+  background-position: 100% 100%;
+}
+
+.video {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  padding: 0;
+  border-top: 0.25rem solid var(--green-500);
+}
+
+@media screen and (max-width: 480px) {
+  .video {
+    width: 100%;
+    margin: unset;
+  }
+}

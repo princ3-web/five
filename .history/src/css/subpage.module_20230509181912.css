@@ -1,0 +1,10 @@
+.section {
+  position: relative;
+  height: max-content;
+  min-height: 100vh;
+  border: 2px solid red;
+}
+
+@media screen and (max-width: 480px) {
+
+}

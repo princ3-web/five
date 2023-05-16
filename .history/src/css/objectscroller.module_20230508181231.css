@@ -1,0 +1,31 @@
+.image {
+  position: absolute;
+  top: 10rem;
+  right: 10rem;
+  width: 20rem;
+  filter: drop-shadow(50px);
+}
+
+.textContainer {
+  color: var(--light);
+  position: absolute;
+  left: 10rem;
+  top: 15rem;
+  margin: auto;
+}
+
+.title {
+  font-size: var(--font-36);
+}
+
+.text {
+  font-size: var(--font-20);
+}
+
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(at left top, var(--teal-300) 0%, var(--violet-300) 70%);
+  background-size: 100% 150%;
+  filter: brightness(0.9);
+}

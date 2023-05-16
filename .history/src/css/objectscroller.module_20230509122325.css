@@ -1,0 +1,48 @@
+.objectscroller{
+  height: 100vh;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10rem;
+  width: 25rem;
+  filter: drop-shadow(10px 40px 20px var(--gray-100));
+
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.image:hover{
+
+}
+
+.textContainer {
+  color: var(--light);
+  position: absolute;
+  left: 10rem;
+  top: 15rem;
+  margin: auto;
+}
+
+.title {
+  font-size: var(--font-36);
+}
+
+.text {
+  font-size: var(--font-20);
+}
+
+.gradient {
+  position: absolute;
+  width: 100vw;
+  height: 150vh;
+  background: radial-gradient(at left top, var(--teal-300) 0%, var(--violet-300) 70%);
+  background-size: 100% 150%;
+  filter: brightness(0.9);
+  background-size: cover;
+}

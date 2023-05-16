@@ -1,0 +1,45 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--violet-200);
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-inline: 7rem;
+  left: 0;
+  right: 0;
+}
+
+.card {
+  height: 70vh;
+  width: 30%;
+  background-color: var(--light);
+  text-align: center;
+}
+
+.title {
+  font-size: var(--font-30);
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  margin-block: 2rem;
+}
+
+.titleIcon{
+  height: 1rem;
+}
+
+.text {
+  font-size: var(--font-16);
+  margin-inline: 1rem;
+}
+
+.image {
+}

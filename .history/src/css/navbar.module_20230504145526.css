@@ -1,0 +1,176 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  width: 100%;
+  padding-inline: 7rem;
+  height: 8rem;
+  color: var(--light);
+
+  filter: drop-shadow(0px 5px 10px var(--gray-100));
+  overflow: visible;
+  box-sizing: border-box;
+  background: linear-gradient(var(--dark) -50%, var(--transp) 100%);
+}
+
+.navbarContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.navbarTopIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10vw;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navbarTopIcon {
+  width: 1.3rem;
+}
+
+.navbarButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navbarButton {
+  padding: 0.5rem;
+  font-weight: var(--bold);
+  cursor: pointer;
+  transition: 0.2s;
+  border-bottom: 3px solid var(--transp);
+}
+
+.navbarButton:hover {
+  border-bottom: 3px solid var(--gray-300);
+}
+
+.navbarButtonDropdown {
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  margin-left: -25px;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  background-color: var(--green-500);
+  cursor: pointer;
+  line-height: 2rem;
+  filter: opacity(0);
+  transition: 0.15s;
+  transition-delay: 0.0s;
+  width: 100
+}
+
+.navbarButton:hover ~ .navbarButtonDropdown {
+  visibility: visible;
+  filter: opacity(1);
+}
+
+.navbarButtonDropdown:hover {
+  visibility: visible;
+  filter: opacity(1);
+}
+
+.navbarButtonDropdownItem {
+  display: block;
+  transition: 0.2s;
+  text-decoration: none;
+  color: var(--light);
+}
+
+.navbarButtonDropdownItem:hover {
+  color: var(--gray-200);
+}
+
+.navbarTopButton {
+  height: fit-content;
+  padding: 0.5rem;
+  font-weight: var(--regular);
+  cursor: pointer;
+}
+
+.logo {
+  position: relative;
+  display: block;
+  height: 60%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.link {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.mobileButton {
+  display: none;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    height: 5rem;
+    padding-inline: 0.5rem;
+  }
+
+  .navbarTopButtons {
+    display: none;
+  }
+  .navbarButtons {
+    display: none;
+  }
+
+  .logo {
+    height: 70%;
+  }
+
+  .mobileButton {
+    display: block;
+    height: 50%;
+    margin-right: 0.5rem;
+    z-index: 1;
+  }
+
+  .mobileMenu {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    top: 5rem;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background: url("../assets/images/paw.png");
+    background-size: 20rem;
+    background-color: var(--green-400);
+    transition: 0.2s;
+  }
+
+  .mobileMenuShow {
+    left: 0;
+  }
+
+  .mobileMenuItem {
+    color: var(--light);
+    font-size: var(--size3);
+    line-height: 4rem;
+    text-decoration: none;
+  }
+}

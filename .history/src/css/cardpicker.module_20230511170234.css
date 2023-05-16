@@ -1,0 +1,37 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--violet-200);
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.card {
+  height: 70vh;
+  width: 25%;
+  background-color: var(--light);
+  text-align: center;
+}
+
+.title {
+    font-size: var(--font-30);
+    font-weight: var(--bold);
+    text-transform: capitalize;
+}
+.text {
+    font-size: var(--font-16);
+
+}
+
+.image {
+}

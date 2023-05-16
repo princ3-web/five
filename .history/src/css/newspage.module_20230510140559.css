@@ -1,0 +1,32 @@
+.newsItem {
+    display: flex;
+    color: var(--gray-200);
+    width: 45%;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    flex-basis: 25%;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    width: "100%",
+    padding-lock: "15rem",
+    padding-inline: "7rem",
+    boxSizing: "border-box",
+  }
+  
+  .newsItem:hover {
+    background-color: var(--gray-100);
+    color: var(--gray-300);
+  }
+  
+  .newsItemImage {
+    width: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+  }
+  .newsItemTitle {
+    font-size: var(--font-20);
+    font-weight: var(--bold);
+  }
+  .newsItemText {
+  }
