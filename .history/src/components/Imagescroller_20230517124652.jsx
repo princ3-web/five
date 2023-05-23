@@ -84,7 +84,7 @@ const Imagescroller = () => {
               ? toggleSelectedBackground((state) => state + 1)
               : toggleSelectedBackground(0)
           }
-          style={{ right: "0.25rem", rotate: "0deg", translateY: "-50%" }}
+          style={{ right: "0", rotate: "0deg", translateY: "-50%" }}
           src={require("../assets/icons/arrow.png")}
           alt=""
         />

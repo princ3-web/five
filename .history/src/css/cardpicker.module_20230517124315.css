@@ -27,9 +27,9 @@
   background-color: var(--light);
   color: var(--gray-100);
   text-align: center;
-  filter: drop-shadow(3px 3px 3px var(--dark-transp-100));
+  filter: drop-shadow(10px 10px 5px var(--dark-transp-200));
   overflow: hidden;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .card:hover{

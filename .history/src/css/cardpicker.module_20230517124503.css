@@ -29,11 +29,11 @@
   text-align: center;
   filter: drop-shadow(3px 3px 3px var(--dark-transp-100));
   overflow: hidden;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .card:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
   filter: drop-shadow(10px 10px 10px var(--dark-transp-100));
 }
 

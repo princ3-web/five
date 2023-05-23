@@ -30,7 +30,7 @@
   z-index: 2;
   top: 50%;
   padding: 1rem;
-  border: 0.15rem outset var(--violet-300);
+  border: 0.25rem outset var(--violet-300);
   cursor: pointer;
   background-size: 0% 0%;
   background-color: var(--gray-200);
@@ -88,7 +88,7 @@
   font-size: var(--font-20);
   padding: 1rem;
   padding-inline: 4rem;
-  border: 0.15rem outset var(--violet-300);
+  border: 0.25rem outset var(--violet-300);
   background: linear-gradient(180deg, var(--transp) 0%, var(--violet-300) 100%);
   background-size: 100% 200%;
   background-position: 100% 0%;
