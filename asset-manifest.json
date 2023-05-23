@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/five/static/css/main.7c426323.css",
-    "main.js": "/five/static/js/main.e6a59301.js",
+    "main.css": "/five/static/css/main.8112265a.css",
+    "main.js": "/five/static/js/main.5dd6e0c1.js",
     "static/js/787.5714e848.chunk.js": "/five/static/js/787.5714e848.chunk.js",
     "static/media/object1.png": "/five/static/media/object1.329cd38416205076b412.png",
     "static/media/news4.webp": "/five/static/media/news4.db8c3d04715b293c089a.webp",
@@ -13,7 +13,6 @@
     "static/media/events0.webp": "/five/static/media/events0.4a1f03a54001f4c42735.webp",
     "static/media/events2.webp": "/five/static/media/events2.b08aaae5a448b5308bc6.webp",
     "static/media/background5.webp": "/five/static/media/background5.0d53686172dd0897b65f.webp",
-    "static/media/logo_sub.png": "/five/static/media/logo_sub.53d60d35524e3430b74a.png",
     "static/media/background6.webp": "/five/static/media/background6.7e27c1e468b41ebb3dc8.webp",
     "static/media/background4.webp": "/five/static/media/background4.835ba7c860956cd6c90b.webp",
     "static/media/background3.webp": "/five/static/media/background3.32b7bc45c25bc7fc49c3.webp",
@@ -31,6 +30,7 @@
     "static/media/events1.webp": "/five/static/media/events1.3fdafd31de7957c262fe.webp",
     "static/media/events3.webp": "/five/static/media/events3.b84abbef8e25e88ec865.webp",
     "static/media/news7.webp": "/five/static/media/news7.e0a42d5927b24d9acdfa.webp",
+    "static/media/logo_sub.png": "/five/static/media/logo_sub.e0581cc592b36230497a.png",
     "static/media/logo.png": "/five/static/media/logo.77f3b31e646fb0e6b694.png",
     "static/media/community1.webp": "/five/static/media/community1.e95b8b4511ad1ede3204.webp",
     "static/media/news2.webp": "/five/static/media/news2.4e8fbc678ed5dc1b7045.webp",
@@ -40,12 +40,12 @@
     "static/media/youtube.png": "/five/static/media/youtube.db6bfa54be86653d1171.png",
     "static/media/cross.png": "/five/static/media/cross.96821c243a8d2dd9eba4.png",
     "index.html": "/five/index.html",
-    "main.7c426323.css.map": "/five/static/css/main.7c426323.css.map",
-    "main.e6a59301.js.map": "/five/static/js/main.e6a59301.js.map",
+    "main.8112265a.css.map": "/five/static/css/main.8112265a.css.map",
+    "main.5dd6e0c1.js.map": "/five/static/js/main.5dd6e0c1.js.map",
     "787.5714e848.chunk.js.map": "/five/static/js/787.5714e848.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c426323.css",
-    "static/js/main.e6a59301.js"
+    "static/css/main.8112265a.css",
+    "static/js/main.5dd6e0c1.js"
   ]
 }
