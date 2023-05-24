@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import app from "./css/app.module.css";
 import Navbar from "./components/Navbar.jsx";
@@ -9,23 +9,7 @@ import Scrolltotop from "./components/Scrolltotop";
 
 function App() {
 
-  const [isLoading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const loadingTimer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-    return () => clearTimeout(loadingTimer);
-  }, []);
-
-  if (isLoading) {
-    return (
-      <div className={app.loadingBackground}>
-        <div className={app.loadingLogo}></div>;
-      </div>
-    );
-  }
-
+  
   return (
     <div className={app.app}>
       <Navbar />

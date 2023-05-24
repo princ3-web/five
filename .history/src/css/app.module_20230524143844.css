@@ -74,11 +74,11 @@ html > div {
     height: 25vh;
     width: 25vw;
     z-index: 1;
-    animation: 1s logo;
+    animation: 1s linear logo;
     transform-origin: 50%;
   }
   
   @keyframes logo {
-    0% {transform: scale(0.9);}
+    0% {transform: scale(0.8);}
     100% {transform: scale(1);}
   }

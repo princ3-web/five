@@ -60,25 +60,8 @@ html > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--gray-100);
+    background-color: var(--dark);
     height: 100vh;
     width: 100vw;
   }
   
-  .loadingLogo{
-    position: relative;
-    background: url("../assets/icons/logo_sub.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 25vh;
-    width: 25vw;
-    z-index: 1;
-    animation: 1s logo;
-    transform-origin: 50%;
-  }
-  
-  @keyframes logo {
-    0% {transform: scale(0.9);}
-    100% {transform: scale(1);}
-  }
